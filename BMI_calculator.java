@@ -40,6 +40,7 @@ public class BMI_calculator {
             if (my_height.contains(",")) {
                 System.out.println("Podaj wzrost używając \".\"");
                 my_height = myObj.nextLine();
+                continue;
             }
             try {
                 Double.parseDouble(my_height);
@@ -107,7 +108,6 @@ public class BMI_calculator {
                 break;
             } else {
                 System.out.println("Wybierz t lub n");
-                continue;
             }
         }
         System.exit(0);
