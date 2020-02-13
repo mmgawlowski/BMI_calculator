@@ -19,7 +19,7 @@ public class BMI_calculator {
         } else if (30 <= BMI && BMI <= 34.99) {
             return "I stopień otyłości";
         } else if (35 <= BMI && BMI <= 39.99) {
-            return "II stopień Motyłości (otyłość kliniczna)";
+            return "II stopień otyłości (otyłość kliniczna)";
         } else if (BMI >= 40.00) {
             return "III stopień otyłości (otyłość skrajna)";
         } else {
